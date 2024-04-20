@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ephphatha </title>
+</head>
+<body>
+
+<!--home,about,contact-->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#home">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#home" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--home,about,contact-->
+
+<!--homepage-->
+  <section id="home">
+    <div class="home container">
+      <div>
+        <h1>Ephphatha: <span></span></h1>
+        <br>
+        <br>
+          <h1>A Voice to American Sign Language Translator, aiding the Church of God Dasmariñas Deaf Ministry
+            Fellowship<span></span></h1>
+        <button type="button" class="cta" id="loginBtn">Log in</button>
+      </div>
+    </div>
+  </section>
+<!--homepage-->
+
+<!--aboutpage-->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="beopened.png.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About me</h1>
+        <h2></h2>
+        <h3></h3>
+        <p>Ephphatha is a revolutionary system that translates spoken language into American Sign Language (ASL). 
+          Designed to aid the Church of God Dasmariñas Deaf Ministry Fellowship, Ephphatha empowers Deaf individuals by providing real-time ASL gestures for spoken words. 
+        <p>With a user-friendly interface, users can customize signing speed and style, ensuring a seamless integration into the church environment. 
+          Ephphatha is the result of collaboration between software engineers, designers, and ASL experts, dedicated to making communication inclusive and accessible.</p>
+        <a href="#more" type="button" class="cta">LEARN MORE</a>
+      </div>
+    </div>
+  </section>
+<!--aboutpage-->
+
+<!--moreephphathapage-->
+        <body>
+          <section id="more">
+              <div class="more container">
+                  <div class="more-header">
+                      <!-- <h1 class="section-title">More About Ephphatha</h1> -->
+                      <div class="more-bottom">
+                          <div class="more-item cog-dasma">
+                              <img src="cog-d.png" alt="COG Dasmarinas Image">
+                              <div class="text-content">
+                                  <h2>Church of God - Dasmariñas</h2>
+                                  <p>A glance at our church’s humble beginning unfolding a wonderful testimony of God’s favor and faithfulness.</p>
+                              </div>
+                          </div>
+                          <div class="more-item cog-dasma-deaf">
+                              <div class="text-content">
+                                  <h2>Church of God Dasmariñas - Deaf Ministry</h2>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+                              </div>
+                              <img src="cogd-dm.png" alt="COG Dasmarinas Deaf Ministry Image">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </body>
+<!--moreephphathapage-->
+  
+<!--contactpage-->
+<section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">Contact Us</h1>
+      <div class="centered-images">
+        <div class="image-with-text">
+          <img src="location.png" alt="Location">
+          <p class="image-label">Address</p>
+          <p>123 Guevarra Street, Dasmariñas, Philippines</p>
+        </div>
+        <div class="image-with-text">
+          <img src="phone.png" alt="Phone">
+          <p class="image-label">Phone</p>
+          <p>+63 966 667 7901</p>
+        </div>
+        <div class="image-with-text">
+          <img src="mail.png" alt="Email">
+          <p class="image-label">Email</p>
+          <p>castro.273940@dasmarinas.sti.edu.ph</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--contactpage-->
+
+<!--loginpage-->
+<span class="close-btn material-symbols-rounded">close</span>
+<div class="login-form" id="loginForm">
+  <div class="login-container">
+    <div class="image-half">
+      <img src="beopened.png.png" alt="Login Image">
+    </div>
+    <div class="form-half">
+      <form>
+        <h2>Login</h2>
+        <div class="input-container">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-container">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" id="submit" class="cta login-btn">Log In</button>
+      </form>
+      <button class="close-btn" id="closeBtn">&times;</button>
+    </div>
+  </div>
+</div>
+<!--loginpage-->
+<script type="module" src="script.js" defer></script>
+</body>
+</html>
